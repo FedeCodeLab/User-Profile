@@ -1,4 +1,4 @@
-# User Profile diseñado para prueba técnica en Security and System
+# User Profile diseñado para prueba técnica
 
 ## Instrucciones para instalar y ejecutar el proyecto
 
