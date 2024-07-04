@@ -1,0 +1,18 @@
+.flexFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.email {
+  font-size: 0.9rem;
+}
+
+.flexIcons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

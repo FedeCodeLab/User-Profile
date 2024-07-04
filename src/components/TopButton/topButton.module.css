@@ -1,0 +1,21 @@
+.topButton {
+  bottom: 30px;
+  right: 30px;
+  background-color: #a04ec4;
+  z-index: 9999;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.topButton:hover {
+  background-color: #883da8;
+}
+
+.topButton span {
+  color: #fff;
+}

@@ -1,0 +1,86 @@
+.GridContact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #c1c1c1;
+  margin: 30px auto 80px auto;
+}
+
+/* ----------------------------- Izquierda ---------------------------------- */
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------------- Derecha ---------------------------------- */
+
+.formulario h3 {
+  margin-bottom: 20px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario form input,
+.formulario form textarea {
+  border: 1px solid #c1c1c1;
+  padding: 10px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.formulario form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  resize: none;
+}
+
+.formulario form button {
+  cursor: pointer;
+  background-color: #a04ec4;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  padding: 12px 15px;
+  width: 100px;
+  align-self: flex-end;
+}
+
+.formulario form button:hover {
+  background-color: #883da8;
+}
+
+/* Errores */
+
+.error {
+  background-color: #ffeeee;
+  border: 1px solid #8f1129;
+  color: #8f1129;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .GridContact {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .GridContact {
+    grid-template-columns: 1fr;
+  }
+  .imagen {
+    display: none;
+  }
+}

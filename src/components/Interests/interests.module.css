@@ -1,0 +1,21 @@
+.interests {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #c1c1c1;
+}
+
+.interestList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.interestList li {
+  font-size: 0.9rem;
+  background-color: #a04ec4;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}

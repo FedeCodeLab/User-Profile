@@ -1,0 +1,20 @@
+.flexHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.flexHeader nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.9rem;
+}
+
+.flexHeader nav ul li {
+  cursor: pointer;
+}
+
+.flexHeader nav ul li:hover {
+  color: #bd72dd;
+}
