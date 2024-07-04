@@ -12,6 +12,10 @@ Para realizar este proyecto, lo primero que hice fue realizar el diseño web uti
 
 Luego, puse en marcha la maquetación del proyecto y realicé su apartado responsive para que fuese fácil de usar y visualizar en dispositivos móviles. Esto también incluye un header para celulares con su propio menú. Para finalizar, realicé la validación del formulario utilizando la dependencia `react-hook-form` para agilizar el trabajo y conseguir un resultado aún más pulido. En el caso de los estilos, utilicé CSS Modules ya que me parece la manera más óptima de trabajar CSS sin frameworks. Por último, para los headers y el botón flotante, utilicé la dependencia `react-scroll` la cual permite facilitar el desplazamiento entre componentes.
 
+## Extra - Deploy del proyecto
+
+https://userprofile-sigma.vercel.app/
+
 ## Dependencias utilizadas
 
 - [React Hook Form](https://react-hook-form.com/)
